@@ -14,7 +14,7 @@ public class Animal {
     public int getId() {
         return id;
     }
-    public int setId() {
+    public int setId(int id) {
         return this.id = id;
     }
     public String getName() {
@@ -35,7 +35,7 @@ public class Animal {
 
     @Override
     public String toString() {
-        return String.format("id: %d\nName: %s\n Рожден: %s\n, this.id, this.name, this.birthdate");
+        return String.format("id: %d\nName: %s\nРожден: %s\n, this.id, this.name, this.birthdate");
     }
 }
 

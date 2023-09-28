@@ -1,4 +1,5 @@
 package org.example.Beasts;
 
-public class Employable {
+interface Employable {
+    void employ();
 }

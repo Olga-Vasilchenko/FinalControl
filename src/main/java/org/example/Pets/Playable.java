@@ -1,4 +1,5 @@
 package org.example.Pets;
 
-public class Playable {
+interface Playable {
+    void play();
 }

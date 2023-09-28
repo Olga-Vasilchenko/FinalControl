@@ -1,4 +1,10 @@
 package org.example.Beasts;
 
-public class Horse {
+public class Horse extends Beast{
+    public Horse(int id, String name, String birthdate, int loadCapacity) {
+        super(id, name, birthdate, loadCapacity);
+    }
+    public static void Comands() {
+        System.out.println("Выполняемые команды животного");
+    }
 }
